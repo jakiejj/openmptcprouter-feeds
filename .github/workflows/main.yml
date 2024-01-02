@@ -9,8 +9,8 @@ jobs:
   build:
     strategy:
       matrix:
-        OMR_TARGET: [bpi-r64, e8450]
-        OMR_KERNEL: [5.4, 6.1]
+        OMR_TARGET: [e8450]
+        OMR_KERNEL: [6.1]
     runs-on: ubuntu-latest
     continue-on-error: true
 
