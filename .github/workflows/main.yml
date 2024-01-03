@@ -4,6 +4,7 @@ on: [push, workflow_dispatch]
 
 env:
   REPO_URL: 'https://github.com/jakiejj/openmptcprouter'
+  OMR_FEED_URL: https://github.com/jakiejj/openmptcprouter-feeds
 
 jobs:
   build:
